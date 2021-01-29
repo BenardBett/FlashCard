@@ -1,1 +1,1 @@
-web: gunicorn flashcard.wsgi
+web: gunicorn flashcard.wsgi --log-file -
