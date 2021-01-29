@@ -4,7 +4,7 @@
 {% block content %}
 <div class="container-fluid">
     <div class="row mt-5">
-        <div class="col-1"></div>
+        <div style="text-align: center;" class="col-1"></div>
         <div class="col-10 d-flex justify-content-left align-items-center">
             <h1 class="display-4">{{ deck.title }}</h1>
             <a href="{% url 'add-card' deck=deck.id %}" class="btn btn-primary my-2 ml-4">Add Card</a>
